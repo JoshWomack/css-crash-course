@@ -1,0 +1,101 @@
+body {
+    background-color:lightgray;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header {
+    background-color:mediumpurple;
+    color:#333;
+}
+
+#navbar {
+    background-color:#333;
+    color:white;
+}
+
+#navbar ul {
+    padding:0;
+    list-style:none;
+}
+
+#navbar ul li {
+    display:inline;
+}
+
+#navbar a {
+    color:white;
+    font-size:1.2em;
+    padding-right:1em;
+}
+
+#showcase {
+    background-image:url('./images/abstract1.jpg');
+    color:#333;
+    background-position:center right;
+    min-height:300px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+#showcase h1 {
+    font-size:50px;
+    line-height:1.6em;
+}
+
+#main {
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing:border-box;
+
+}
+
+#sidebar {
+    float:right;
+    width:30%;
+    box-sizing:boRder-box;
+    padding: 0 .8em;
+    background:#333;
+    color:white;
+
+}
+
+#main-footer {
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:1em;
+    margin-top: .8em;
+}
+
+@media(max-width:600px) {
+    #main {
+        width:100%;
+        float:none;
+    }
+
+    #sidebar {
+        width:100%;
+        float:none;
+    }
+}
+
+
+
+
+
+
